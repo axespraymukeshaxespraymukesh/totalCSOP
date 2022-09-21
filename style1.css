@@ -1,0 +1,67 @@
+body{
+    animation: changeBg 5s infinite alternate linear;
+}
+@keyframes changeBg{
+    0%{
+        background: #ee6055;
+    }
+    25%{
+        background: #ff5303;
+    }
+    50%{
+        background: #ff9a03;
+    }
+    75%{
+        background: #a3f112;
+    }
+    100%{
+        background: #04f591ea;
+    }
+}
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    border: 5px solid black;
+    margin:5px 50px 5px 50px;
+    padding: 50px 50px 50px 50px;
+    justify-content: center;
+    background-color: green;
+    /* background-size: 100% 100%; */
+   
+}
+.card>.card1{
+    padding: 30px 30px 30px 30px;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    background-size: 100% 100%;
+    position: relative;
+    height: auto;
+    width: 600px;
+    top: 30px;
+    left: 10px;
+    border:10px solid rgb(0, 0, 0);
+    margin:20px auto;
+    text-align: center;
+    display: flex;
+}
+a{
+    background-color: blueviolet;
+    padding: 15px 15px 15px 15px;
+    margin: 80px 60px 80px 80px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    
+} 
+img{
+    display: block;
+    justify-content: center;
+}
+.card1>.pad{
+    text-align: center;
+    text-decoration: bold;
+    color: beige;
+}
